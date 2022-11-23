@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+header, footer{
+    background-color: burlywood;
+    padding: 1rem 0;
+}
+
+main{
+    display: flex;
+    flex-grow: 1;
+}
+
+main article{
+    background-color: lightseagreen;
+    flex-grow: 3;
+}
+
+main aside{
+    background-color: aqua;
+    flex-grow: 1;
+}
+
+main nav{
+   background-color: aquamarine;
+   flex-grow: 1;
+}
